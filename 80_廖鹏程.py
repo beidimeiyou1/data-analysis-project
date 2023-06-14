@@ -17,7 +17,7 @@ import pandas as pd
 warnings.filterwarnings('ignore')
 plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
 #读取数据集
-df=pd.read_csv("D:\\桌面\\睡眠质量\\Sleep_health_and_lifestyle_dataset.csv",encoding="gbk")
+df=pd.read_csv("https://raw.githubusercontent.com/beidimeiyou1/data-analysis-project/main/Sleep_health_and_lifestyle_dataset.csv",encoding="gbk")
 #查看数据集基本信息
 df.info()
 #查看是否有缺失值
